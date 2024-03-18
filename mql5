@@ -1,0 +1,74 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                              GRat BinanceImport |
+//|                                         Developer: Forex Robot Easy Team |
+//|                                                  Site: forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+#include <MT4Bridge.mqh>
+#include <BinanceAPI.mqh>
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Your trading logic here
+}
+
+//+------------------------------------------------------------------+
+//|                                             Trade Import Function |
+//+------------------------------------------------------------------+
+void TradeImport(string binanceCurrency)
+{
+    // Import trades from MT5 and MT4 accounts to specified Binance currency
+}
+
+//+------------------------------------------------------------------+
+//|                                     Symbol-based Trade Import Function |
+//+------------------------------------------------------------------+
+void SymbolBasedTradeImport(string binanceCurrency, string symbol)
+{
+    // Import trades based on a particular symbol from MT5 and MT4 accounts to specified Binance currency
+}
+
+//+------------------------------------------------------------------+
+//|                                  Magic Number-based Trade Import Function |
+//+------------------------------------------------------------------+
+void MagicNumberBasedTradeImport(string binanceCurrency, int magicNumber)
+{
+    // Import trades based on a specific magic number from MT5 and MT4 accounts to specified Binance currency
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialization code here
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Clean up code here
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnTimer()
+{
+    // Timer event code here
+}
+
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+void OnChartEvent(const int id, const long& lparam, const double& dparam, const string& sparam)
+{
+    // Chart event code here
+}
